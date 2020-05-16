@@ -1,5 +1,5 @@
 # ABHAYAVACANA
-A hospital website which has an appoint booking system and pharmacy store.
+A hospital website which has an appointment booking system and pharmacy store.
 
 Screen shots from pharmacy store:
 
