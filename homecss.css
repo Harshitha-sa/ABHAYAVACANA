@@ -1,0 +1,167 @@
+h1{
+  text-align: center;
+  color:#ffffff;
+  font-size: 50px;
+}
+.icon-bar {
+  width:100%;
+  background-color: #555;
+  overflow: auto;
+}
+.icon-bar a {
+  float: left;
+  width: 33%;
+  text-align: center;
+  padding: 10px 0;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 20px;
+  border: 1px solid black;
+}
+
+.icon-bar a:hover {
+  background-color: #000;
+}
+.icon-bar a#onlink{
+	background:#4CAF50;
+	color:#ffffff;
+
+}
+.icon-bar a#onlink:hover{
+	background:#000000;
+	color:#ffffff;
+}
+
+
+.active {
+  background-color: #4CAF50;
+}
+
+
+.container{
+    
+     padding-top: 150px;
+
+}
+.btn1 {
+	position: absolute;
+	left: 40%;
+	top:58%;
+	transform: translate(-50%,-50%);
+	width:200px;
+	height:125px;
+	text-align: center;
+	line-height: 40px;
+	color: #fff;
+	font-size: 15px;
+	text-transform: uppercase;
+	text-decoration:none;
+	font-family: sans-serif;
+	box-sizing: border-box;
+	background: linear-gradient(90deg,#03a9f4,#f441a5,#ffeb3b,#03a9f4);
+	background-size: 400%;
+	border-radius: 30px;
+	z-index: 1;
+}
+
+.btn1:hover
+{
+	animation:animate 8s linear infinite;
+}
+@keyframes animate
+{
+	0%
+	{
+		background-position: 0%;
+	}
+	100%
+	{
+		background-position: 400%;
+	}
+}
+.btn1:before
+{
+	content: '';
+	position: absolute;
+	top: -5px;
+	left: -5px;
+	right: -5px;
+	bottom: -5px;
+	z-index: -1;
+	background: linear-gradient(90deg,#03a9f4,#f441a5,#ffeb3b,#03a9f4);
+	background-size: 400%;
+	border-radius: 40px;
+	opacity: 0;
+	transition: 0.5s;
+}
+.btn1:hover:before
+{
+	filter: blur(20px);
+	opacity: 1;
+	animation:animate 8s linear infinite;
+}
+.btn2 {
+	position:absolute;
+	left:55%;	
+	top: 58%;
+	transform: translate(-50%,-50%);
+	width:200px;
+	height:125px;
+	text-align: center;
+	line-height: 40px;
+	color: #fff;
+	font-size: 15px;
+	text-transform: uppercase;
+	text-decoration:none;
+	font-family: sans-serif;
+	box-sizing: border-box;
+	background: linear-gradient(90deg,#03a9f4,#f441a5,#ffeb3b,#03a9f4);
+	background-size: 400%;
+	border-radius: 30px;
+	z-index: 1;
+}
+.btn2:hover
+{
+	animation:animate 8s linear infinite;
+}
+@keyframes animate
+{
+	0%
+	{
+		background-position: 0%;
+	}
+	100%
+	{
+		background-position: 400%;
+	}
+}
+.btn2:before
+{
+	content: '';
+	position: absolute;
+	top: -5px;
+	left: -5px;
+	right: -5px;
+	bottom: -5px;
+	z-index: -1;
+	background: linear-gradient(90deg,#03a9f4,#f441a5,#ffeb3b,#03a9f4);
+	background-size: 400%;
+	border-radius: 40px;
+	opacity: 0;
+	transition: 0.5s;
+}
+
+.btn2:hover:before
+{
+	filter: blur(20px);
+	opacity: 1;
+	animation:animate 8s linear infinite;
+}
+
+
+
+
+
+
+
+
