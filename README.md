@@ -1,6 +1,12 @@
 # ABHAYAVACANA
 A hospital website which has an appointment booking system and pharmacy store.
 
+Was made as a mini project for my program elective,Team mates:
+
+Keerti,
+Ganavi,
+Anchal
+
 Screen shots from pharmacy store:
 
 Login Page:
